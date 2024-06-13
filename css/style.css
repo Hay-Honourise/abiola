@@ -196,6 +196,10 @@ a:focus {
     .top-bar .logo {
         text-align: center;
     }
+
+    .logo_text{
+        display: none;
+    }
     
     .top-bar .social {
         display: none;
