@@ -81,18 +81,51 @@ a:focus {
 }
 
 .top-bar .logo {
-    padding: 15px 0;
+  /*  padding: 15px 0;
+    text-align: left;
+    overflow: hidden;*/
+
+    display: flex;
+    padding: 5px 0;
     text-align: left;
     overflow: hidden;
+    width: 300%;
 }
 
-.top-bar .logo h1 {
+/*.top-bar .logo h1 {
     margin: 0;
     color: #aa9166;
     font-size: 75px;
     line-height: 55px;
     font-weight: 800;
+}*/
+
+/*--------*/
+
+.top-bar .logo h1 {
+    display: flex;
+    /* margin: 0; */
+    margin-left: 15%;
+    margin-top: 15px;
+    color: var(--main-color);
+    font-size: 23px;
+    /* line-height: 20px; */
+    font-weight: 800;
+    width: 290px;
 }
+
+.top-bar .logo h4 {
+    display: flex;
+    /* margin: 0; */
+    margin-left: 24%;
+    margin-top: 15px;
+    color: var(--main-color);
+    font-size: 20px;
+    /* line-height: 20px; */
+    font-weight: 800;
+    width: 290px;
+}
+/*--------*/
 
 .top-bar .logo img {
     max-width: 100%;
@@ -161,6 +194,8 @@ a:focus {
 @media (min-width: 992px) {
     .top-bar {
         padding: 0 60px;
+        max-height: 100px;
+        display: flex;
     }
 }
 
